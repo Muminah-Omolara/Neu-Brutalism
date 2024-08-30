@@ -1,0 +1,45 @@
+/* .secondnav, */
+.mobileNav {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  list-style: none;
+  padding: 8px;
+  width: Hug(558.22px);
+  height: Hug(49.12px);
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+.secondnav {
+  margin-top: 30px;
+}
+.desktopNav {
+  display: none;
+  flex: 1;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  list-style: none;
+  padding: 8px;
+
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@media (min-width: 600px) {
+  .secondnav {
+    width: Hug(1574px);
+    height: Hug(139px);
+    margin-left: -67px;
+  }
+  .mobileNav {
+    display: none;
+  }
+  .desktopNav {
+    display: flex;
+  }
+}

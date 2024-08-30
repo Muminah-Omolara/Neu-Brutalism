@@ -1,0 +1,21 @@
+.neuBrutalism {
+  max-width: 1440px;
+  margin: 0px auto;
+
+  padding: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  body {
+    max-width: 350px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,13 @@
+.topNotch,
+.zainab {
+  margin-top: 70px;
+  margin-left: 15px;
+}
+
+
+@media (min-width: 600px) {
+  .AboutMe {
+    display: flex;
+    justify-content: space-around;
+  }
+}

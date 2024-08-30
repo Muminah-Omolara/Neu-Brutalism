@@ -1,0 +1,153 @@
+h2 {
+  border: 2px solid black;
+  padding: 30px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.projects {
+  padding-top: 20px;
+  padding-bottom: 3px;
+  margin-bottom: 2px;
+}
+.projects p,
+.generated p,
+.userOne p,
+.userTwo p,
+.userThree p,
+.userFour p {
+  font-size: 16px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+}
+.generated {
+  margin-top: -4px;
+  margin-bottom: 2px;
+}
+
+.mobiletable {
+  width: 329.22px;
+}
+
+.userOne {
+  border: 2px solid black;
+  padding: 30px;
+  margin-top: -4px;
+}
+.userTwo,
+.userThree,
+.userFour {
+  border: 2px solid black;
+  padding: 30px;
+  margin-top: -3px;
+}
+
+.learn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -2px;
+  margin-bottom: 1px;
+}
+/* Desktop view table styles */
+.desktoptable {
+  display: none;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+.firstColumn {
+  margin-top: -32px;
+}
+
+.desktopProjects {
+  padding-top: 20px;
+  padding-bottom: 3px;
+  margin-bottom: 2px;
+  border-left: none;
+}
+.desktopProjects p,
+.desktopGenerated p,
+.desktopUserOne p,
+.desktopUserTwo p,
+.desktopUserThree p,
+.desktopUserFour p {
+  font-size: 16px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+}
+
+.desktopGenerated {
+  padding-bottom: 381px;
+  margin-top: -4px;
+  border-left: none;
+  margin-bottom: 0;
+}
+.desktopUserOne {
+  border: 2px solid black;
+  padding: 30px;
+  margin-top: -4px;
+  border-left: none;
+  margin-bottom: 200px;
+  padding-bottom: 0;
+}
+.desktopUserTwo {
+  margin-bottom: 200px;
+  padding-bottom: 0;
+}
+
+.desktopUserTwo,
+.desktopUserThree,
+.desktopUserFour {
+  border: 2px solid black;
+  padding: 30px;
+  margin-top: -3px;
+  border-left: none;
+}
+
+.desktopUserTwo {
+  margin-top: -4px;
+}
+
+.desktopUserThree,
+.desktopUserFour {
+  border: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.desktopUserThree .desktopLearn,
+.desktopUserFour .desktopLearn {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 0;
+  margin-right: -60px;
+  margin-left: -60px;
+}
+
+.desktopLearn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: -2px;
+  margin-bottom: 0;
+  border-left: none;
+  border-right: none;
+  margin-top: 40px;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+@media (min-width: 600px) {
+  .mobiletable {
+    display: none;
+  }
+  .desktoptable {
+    display: grid;
+  }
+}
