@@ -9,7 +9,7 @@
 
 @media (max-width: 600px) {
   body {
-    max-width: 350px;
+    /* max-width: 350px; */
     align-items: center;
     justify-content: center;
     margin: 0 auto;
